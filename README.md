@@ -2,6 +2,39 @@
 
 A feature-rich Telegram Bot built with `python-telegram-bot` for AI image generation, account & point management, user rewards, forced channel joining verification, and admin controls.
 
+---
+
+## ⚙️ Railway Environment Variables Example
+
+Copy and paste these variable Key/Value pairs into your **Railway Project Settings -> Variables**:
+
+### 1. `BOT_TOKEN` (Required)
+```env
+BOT_TOKEN=7525682158:AAGv-M7A9zlpTuAcMvL-Qp8WJ5KuFemZgxk
+```
+
+### 2. `ADMIN_PASSWORD` (Optional)
+```env
+ADMIN_PASSWORD=Shanucom101@
+```
+
+### 3. `LOG_CHANNEL` (Optional)
+```env
+LOG_CHANNEL=@absbabshsb
+```
+
+---
+
+## 🛠️ Quick Variable Summary Table
+
+| Key | Example Value | Description |
+| :--- | :--- | :--- |
+| `BOT_TOKEN` | `7525682158:AAGv-M7A9zlpTuAcMvL-Qp8WJ5KuFemZgxk` | Telegram bot token from @BotFather |
+| `ADMIN_PASSWORD` | `Shanucom101@` | Admin access password for `/admin` command |
+| `LOG_CHANNEL` | `@absbabshsb` | Telegram channel for logging generated images |
+
+---
+
 ## 🚀 Features
 
 - **AI Image Generation**: Supports multiple Opengoon modes (`transparent`, `xray`, `anime`, `real`, etc.).
@@ -10,29 +43,6 @@ A feature-rich Telegram Bot built with `python-telegram-bot` for AI image genera
 - **Force Join Verification**: Ensures users subscribe to required channels before accessing bot features.
 - **Points & Referral System**: Built-in points tracking, daily check-in rewards, and task completion bonuses.
 - **Support Ticket System**: Direct communication system between users and bot admins.
-
----
-
-## 🛠️ Railway Deployment Guide
-
-### 1. Requirements
-- Python 3.10+
-- Dependencies listed in `requirements.txt`
-
-### 2. Environment Variables
-Set the following environment variables in your Railway Project Settings:
-
-| Variable | Required | Description | Default Fallback |
-| :--- | :---: | :--- | :--- |
-| `BOT_TOKEN` | **Yes** | Your Telegram Bot Token from @BotFather | `7525682158:AAGv-M7A9zlpTuAcMvL-Qp8WJ5KuFemZgxk` |
-| `ADMIN_PASSWORD` | No | Password for `/admin` authentication | `Shanucom101@` |
-| `LOG_CHANNEL` | No | Channel username for image logging | `@absbabshsb` |
-
-### 3. Deploying to Railway
-1. Connect your GitHub repository (`Shancom900/bikni`) to Railway.
-2. Select **Deploy from GitHub repo**.
-3. Add the `BOT_TOKEN` environment variable under **Variables**.
-4. Railway automatically detects `Procfile` (`worker: python bot.py`) and starts the bot!
 
 ---
 
