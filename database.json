@@ -1,0 +1,36 @@
+{
+    "users": {},
+    "accounts": [],
+    "queries": [],
+    "giftcards": {},
+    "tasks": [
+        {
+            "id": 1,
+            "title": "📸 Follow on Instagram",
+            "url": "https://instagram.com",
+            "points": 1
+        },
+        {
+            "id": 2,
+            "title": "📢 Join Telegram Channel",
+            "url": "https://t.me/WorldLinkers",
+            "points": 1
+        },
+        {
+            "id": 3,
+            "title": "▶️ Subscribe YouTube Channel",
+            "url": "https://youtube.com",
+            "points": 1
+        }
+    ],
+    "settings": {
+        "admin_ids": [
+            7525682158
+        ],
+        "channel_username": "@WorldLinkers",
+        "channel_link": "https://t.me/WorldLinkers",
+        "log_channel": "@absbabshsb",
+        "terms_image_url": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&auto=format&fit=crop&q=80",
+        "invite_url": "https://opengoon.com/?invite=ovbtvifn"
+    }
+}
